@@ -5,7 +5,13 @@ A rudimentary ASP.NET Core application running in one Docker container which com
 docker-compose build && docker-compose up
 ```
 
-Then open a web browser and go to localhost:8080.
+Then open a web browser and go to localhost:8080 and you should see a page like this:
+
+```
+You are connected to database "postgres" as user "postgres" on host "172.20.0.2/32" at port "5432".
+You are connecting from "172.20.0.3/32" at port "32842".
+Version information: PostgreSQL 11.0 (Debian 11.0-1.pgdg90+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 6.3.0-18+deb9u1) 6.3.0 20170516, 64-bit
+```
 
 ### References:
 * https://docs.docker.com/compose/overview/
